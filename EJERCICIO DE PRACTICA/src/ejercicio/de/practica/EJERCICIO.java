@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author Jose Luis
  */
 public class EJERCICIO {
-     public void ejercicio3(){
+  public void ejercicio3(){
         //Declarando Variables
         double lineaCredito=0;
         int tipoTarjeta=0;
@@ -58,4 +58,6 @@ public class EJERCICIO {
         lineaCredito=lineaCredito+incremento;
         System.out.println("Nueva linea de credito de : "+nombre+" es: "+lineaCredito);
     }
+}
+  
 }
