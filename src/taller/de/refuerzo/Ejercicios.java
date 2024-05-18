@@ -12,17 +12,13 @@ import java.util.Scanner;
  */
 public class Ejercicios {
     public static void main(String[] args) {
-      Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Ingrese un número: ");
-        int N = scanner.nextInt();
-        
-        System.out.println("Números pares menores que " + N + ":");
-        for (int i = 0; i < N; i = i + 2) {
+      int N;
+      Scanner leer = new Scanner(System.in);
+      System.out.print("Ingrese un número: ");
+      N = leer.nextInt();
+      for (int i = 0; i < N; i = i + 2) {
             System.out.println(i);
         }
-        
-        scanner.close();
     }
 }
        
